@@ -6,13 +6,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-
-
-
-
+import sudoku.buildlogic.SudokuBuildLogic;
+import sudoku.userinterface.UserInterfaceImpl;
+import sudoku.userinterface.IUserInterfaceContract;
 
 public class SudokuApplication extends Application {
-    private IUserInterfaceContract.VIew uiImpl;
+    private IUserInterfaceContract.View uiImpl;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
